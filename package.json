@@ -1,0 +1,22 @@
+{
+  "name": "dance_festival",
+  "version": "0.1.1",
+  "description": "markup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "Evgeniy Vinokurov",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "*",
+    "gulp": "*",
+    "gulp-cli": "*",
+    "gulp-concat": "*",
+    "gulp-sass": "*",
+    "jquery": "*"
+  }
+}
