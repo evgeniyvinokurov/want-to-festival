@@ -1,4 +1,4 @@
-# dances v0.7.2
+# want-to-festival v0.7.2
 * svg анимации  
 * слайдеры  
 * ymaps  
