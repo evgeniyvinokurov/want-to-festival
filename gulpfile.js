@@ -7,15 +7,11 @@ var concat = require('gulp-concat');
 gulp.task('sass', function () {
   return gulp.src('./sass/**/*.scss')
     .pipe(sass.sync().on('error', sass.logError))
-    .pipe(gulp.dest('./css'));
+    .pipe(gulp.dest('./dist/v1/css'));
 });
 
 gulp.task('concat', function () {
   return gulp.src('./js/**/*.js')
-    .pipe(concat("all.js"))
+    .pipe(concat("./dist/v1/all.js"))
     .pipe(gulp.dest('.'));
-});
-
-gulp.task('sass:watch', function () {
-  gulp.watch('./sass/**/*.scss', ['sass']);
 });

@@ -1,6 +1,7 @@
-# dances v0.3.0
+# dances v0.7.2
 * svg анимации  
 * слайдеры  
 * ymaps  
 * верстка и дизайн  
 * gulp  
+* 2 verses  
